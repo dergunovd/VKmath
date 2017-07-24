@@ -1,0 +1,22 @@
+.im-chat-input--vkmath {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    right: 75px;
+    bottom: 0;
+}
+.im-chat-input--vkmath-label {
+    background: url(/images/icons/msg_cog.png) center center no-repeat;
+    width: 24px;
+    height: 24px;
+    padding: 6px 5px;
+    opacity: 0.7;
+    cursor: pointer;
+    display: block;
+}
+.im-chat-input--vkmath-label:hover {
+    opacity: 1;
+}
+.im-chat-input .im-chat-input--text {
+    padding: 9px 106px 10px 11px;
+}
