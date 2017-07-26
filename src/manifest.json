@@ -1,10 +1,13 @@
 {
     "name": "VKmath",
     "short_name": "VKmath",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "manifest_version":2,
     "author": "Dergunov Dmitry",
     "offline_enabled": false,
+    "icons": { "16": "icon16.png",
+               "48": "icon48.png",
+              "128": "icon128.png" },
     "description":"Простой легковесный плагин, предоставляющий возможность отправки математических LaTeX-формул в личных сообщениях на сайте vk.com",
     "content_scripts":[{
         "matches": ["https://vk.com/im*"],
